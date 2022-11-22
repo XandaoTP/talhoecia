@@ -1,0 +1,21 @@
+html, body, #root {
+    height: 100%;
+    background-color: #000;
+  }
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
+  #root > main {
+    flex: 1;
+  }
+.divLogo {
+    display: flex;
+}
+.logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20rem;
+        height: 20rem;
+}

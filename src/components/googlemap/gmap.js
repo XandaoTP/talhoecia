@@ -19,13 +19,20 @@ function Gmaps() {
           options={{
             disableDefaultUI: true,
             disableDoubleClickZoom: true,
-            gestureHandling: 'none'
+            gestureHandling: 'none',
         }}>
         <MarkerF
             position={{
                 lat: -19.743134,
                 lng: -47.957675
                 }}
+            options={{
+              label:{
+                text: 'Talho&Cia',
+                color: 'white',
+              className: 'mapname'
+              }
+            }}    
                 />            
         </GoogleMap>
       </div>

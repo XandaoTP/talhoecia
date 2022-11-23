@@ -29,7 +29,8 @@ function Gmaps() {
             options={{
               label:{
                 text: 'Talho&Cia',
-                color: 'white',
+                fontSize: '15px',
+                fontWeight: 'bold',
               className: 'mapname'
               }
             }}    
